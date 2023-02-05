@@ -4466,6 +4466,8 @@ self: super: with self; {
 
   hydra-check = callPackage ../development/python-modules/hydra-check { };
 
+  hydra-slayer = callPackage ../development/python-modules/hydra-slayer { };
+
   hydrawiser = callPackage ../development/python-modules/hydrawiser { };
 
   hydrus-api = callPackage ../development/python-modules/hydrus-api { };
